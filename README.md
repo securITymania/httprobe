@@ -18,12 +18,9 @@ ln -s /usr/bin/httprobe.py httprob
 
 ### Usage:
 ```
-usage: httprobe [-h] [-l] file
-
-positional arguments:
-  file
+usage: httprobe [-h] [-l FILE]
 
 optional arguments:
   -h, --help  show this help message and exit
-  -l, --list  Give subdomains list file as input
+  -l FILE     Give subdomains list file as input
 ```
